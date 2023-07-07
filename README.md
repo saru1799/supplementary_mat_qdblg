@@ -1,32 +1,29 @@
 # Supplementary material for the work "Numerical study of electrostatically-defined quantum dots in bilayer graphene"
 
 Abstract:
+Interacting quantum many-body systems are so challenging to study that even simplified models, such as the Hubbard model, cannot be solved exactly.
+For this reason, it is interesting to engineer controllable quantum systems, called quantum simulators, that can emulate the behavior of these models.
+This makes quantum simulators a promising platform for studying the Hubbard model. These can be implemented, for example, using interacting arrays of quantum dots realized in semiconducting materials.
+
+The capability to tune the bands in bilayer graphene with patterned gate electrodes provides an innovative platform to study such a model, as it is the first time to explore the Hubbard model with quantum dots in a two-dimensional material.
+Moreover, this platform opens a wide range of possibilities to study the different parameters of the model.
+
+In this work, we study theoretically and numerically realistic models of electrostatically defined quantum dots in bilayer graphene. 
+We can calculate the proposed device's potential and band-gap landscape induced in bilayer graphene by solving the Poisson equation.
+The result is then fed to a low-energy model to calculate the bound states of the quantum dots.
+This allows calculating the parameters of the corresponding Hubbard model, including tunneling amplitudes and on-site interactions.
+Our results can be directly used to design quantum-simulation devices based on quantum dots that are realized electrostatically in bilayer graphene.
 
 
-## Description of the contents of these folders.
-
-
-## Description
-Let people know what your project can do specifically. Provide context and add a link to any reference visitors might be unfamiliar with. A list of Features or a Background subsection can also be added here. If there are alternatives to your project, this is a good place to list differentiating factors.
-
-## Badges
-On some READMEs, you may see small images that convey metadata, such as whether or not all the tests are passing for the project. You can use Shields to add some to your README. Many services also have instructions for adding a badge.
-
-## Visuals
-Depending on what you are making, it can be a good idea to include screenshots or even a video (you'll frequently see GIFs rather than actual videos). Tools like ttygif can help, but check out Asciinema for a more sophisticated method.
-
-## Installation
-Within a particular ecosystem, there may be a common way of installing things, such as using Yarn, NuGet, or Homebrew. However, consider the possibility that whoever is reading your README is a novice and would like more guidance. Listing specific steps helps remove ambiguity and gets people to using your project as quickly as possible. If it only runs in a specific context like a particular programming language version or operating system or has dependencies that have to be installed manually, also add a Requirements subsection.
-
-## Usage
-Use examples liberally, and show the expected output if you can. It's helpful to have inline the smallest example of usage that you can demonstrate, while providing links to more sophisticated examples if they are too long to reasonably include in the README.
+## Description of the contents.
+In the current folder, we find different examples to follow the master thesis project named "Numerical study of electrostatically-defined quantum dots in bilayer graphene" by Sara Navarro and supervised by Iacopo Torre.
+There are 3 jupyter notebooks that replicate the results presented in the work, and the modules to do it are also available in order to easily access the documentation. The notebooks are the following:
+**qdot_electrostatic_simulation**: we reproduce the results of section 2, where the electrostatic potential of the device is obtained.
+**confined_states_and_Hubbard_parameters**: we reproduce the results of sections 3.1.1 and 3.2.1, where the confined states (quantum dots) and the interactions between the dots are obtained.
+**blg_periodic_potential**: we reproduce the results of section 3.3.1, where the band structure of bilayer graphene under a periodic potential is calculated.
 
 ## Support
 For support or any doubt, contact saranelgoibar@gmail.com
-## Roadmap
-If you have ideas for releases in the future, it is a good idea to list them in the README.
-
-## Contributing
 
 ## Authors and acknowledgment
 Author: Sara Navarro
