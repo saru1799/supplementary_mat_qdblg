@@ -18,8 +18,11 @@ Our results can be directly used to design quantum-simulation devices based on q
 ## Description of the contents.
 In the current folder, we find different examples to follow the master thesis project named "Numerical study of electrostatically-defined quantum dots in bilayer graphene" by Sara Navarro and supervised by Iacopo Torre.
 There are 3 jupyter notebooks that replicate the results presented in the work, and the modules to do it are also available in order to easily access the documentation. The notebooks are the following:
+
 **qdot_electrostatic_simulation**: we reproduce the results of section 2, where the electrostatic potential of the device is obtained.
+
 **confined_states_and_Hubbard_parameters**: we reproduce the results of sections 3.1.1 and 3.2.1, where the confined states (quantum dots) and the interactions between the dots are obtained.
+
 **blg_periodic_potential**: we reproduce the results of section 3.3.1, where the band structure of bilayer graphene under a periodic potential is calculated.
 
 ## Support
