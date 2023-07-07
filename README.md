@@ -36,7 +36,7 @@ Supervised by: Dr. Iacopo Torre
 Done at: Quantum Nano-optoelectronics group - Prof. Frank Koppens; at ICFO-Institut de Ciències Fotòniques, The Barcelona Institute of Science and Technology, Av. Carl Friedrich Gauss 3, 08860 Castelldefels (Barcelona), Spain
 
 ## License
-Released under GNU General Public License, verion 3.
+Released under GNU General Public License, version 3.
 
 ## Project status
 If you have run out of energy or time for your project, put a note at the top of the README saying that development has slowed down or stopped completely. Someone may choose to fork your project or volunteer to step in as a maintainer or owner, allowing your project to keep going. You can also make an explicit request for maintainers.
